@@ -1,10 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './ProductList.css';
+ 
+import {useTelegram} from "../../hooks/useTelegram";
+import {useCallback, useEffect} from "react";
+ 
+export  const ProductList = () => {
+ 
 
-export const ProductList =()=>{
-    return(
-        <>
-        ProductList
-        </>
-    )
-}
+    return (
+        <div className={'list'}>
+         product list
+        </div>
+    );
+};
+
+ 
